@@ -7,8 +7,8 @@ function Card(props) {
   };
 
   return (
-    <div className='flex justify-center items-center h-screen bg-white'>
-        <div className='flex items-center border-2 border-black w-96 h-60'>
+    <div className='flex justify-center items-center h-screen'>
+        <div className='flex items-center border-2 border-black w-96 h-60 bg-white'>
             <div className='m-8'><img src={cleanProp(props.src)} alt='no img'/></div>
             <div>
                 <div className='m-3'>
